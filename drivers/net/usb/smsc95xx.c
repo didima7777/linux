@@ -1898,7 +1898,7 @@ static const struct driver_info smsc95xx_info = {
 	.tx_fixup	= smsc95xx_tx_fixup,
 	.status		= smsc95xx_status,
 	.manage_power	= smsc95xx_manage_power,
-	.flags		= FLAG_ETHER | FLAG_SEND_ZLP | FLAG_LINK_INTR,
+	.flags		= FLAG_ETHER | FLAG_SEND_ZLP ,
 };
 
 static const struct usb_device_id products[] = {
